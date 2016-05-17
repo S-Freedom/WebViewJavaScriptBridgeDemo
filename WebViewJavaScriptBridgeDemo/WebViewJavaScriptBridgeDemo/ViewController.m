@@ -10,7 +10,7 @@
 #import "WebViewJavascriptBridge.h"
 @interface ViewController ()
 
-@property (strong,nonatomic) WebViewJavascriptBridge* bridge;
+@property (strong,nonatomic) WebViewJavascriptBridge *bridge;
 @end
 
 @implementation ViewController

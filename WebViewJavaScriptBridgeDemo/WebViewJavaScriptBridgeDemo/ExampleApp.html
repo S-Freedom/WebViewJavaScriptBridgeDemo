@@ -52,17 +52,9 @@
 			log('JS calling handler "testObjcCallback"')
 			bridge.callHandler('testObjcCallback', {'foo': 'bar'}, function(response) {
                 log('JS got response', response)
-<!--                var str ='JS got response : '+response;-->
-<!--                getUserInfo(str);-->
 			})
 		}
 	})
-    
-    function getUserInfo(data){
-        alert(data);
-    }
-    
-    
 	</script>
 	<div id='buttons'></div> <div id='log'></div>
 </body></html>
